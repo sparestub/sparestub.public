@@ -1,33 +1,31 @@
-{% extends "layout.html" %}
+{% extends "_layout.html" %}
 
 {% block content %}
 
-<div class="jumbotron">
-    <h1>Flask</h1>
-    <p class="lead">Flask is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-</div>
+<style>
+    .concert-background { 
+          background: url(https://s3.amazonaws.com/sparestub-staging/static_root/sparestub/backgrounds/concert-optimized.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+    }
+    .full { padding-bottom: 500px; height: 100% }
+</style>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            Flask gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://flask.pocoo.org/docs/">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>The Python Package Index is a repository of software for the Python programming language.</p>
-        <p><a class="btn btn-default" href="https://pypi.python.org/pypi">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Microsoft Azure</h2>
-        <p>You can easily publish to Microsoft Azure using Python Tools for Visual Studio. Find out how you can host your application using a free trial today.</p>
-        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+<div id="introduction" class="concert-background full">
+    <div class="container">
+        <div class="row text-center">
+            <h3 id="top-intro1" class="col-xs-12 title top-intro">Buyers and sellers attend events together</h3>
+            <h3 id="top-intro2" class="col-xs-12 title top-intro">It's ticket resale... but better</h3>
+
+            <div id="buffer" class="col-xs-12"></div>
+            <div id="learn-more" class="col-xs-12 center-block">
+                <div>
+                    <h2>Coming Soon</h2><br>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
 {% endblock %}
