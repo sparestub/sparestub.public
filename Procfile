@@ -1,2 +1,2 @@
-web: gunicorn sparestub.wsgi --log-file -
-worker: celery worker --app=tasks.app
+web: gunicorn beta:app --log-file -
+#worker: celery worker --app=tasks.app
