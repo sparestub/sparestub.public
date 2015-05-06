@@ -36,15 +36,19 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="SpareStubPublic\" />
+    <Folder Include="SpareStubPublic\contact\" />
     <Folder Include="SpareStubPublic\static\" />
     <Folder Include="SpareStubPublic\static\content\" />
     <Folder Include="SpareStubPublic\static\fonts\" />
     <Folder Include="SpareStubPublic\static\scripts\" />
+    <Folder Include="SpareStubPublic\static\scripts\sparestub\" />
     <Folder Include="SpareStubPublic\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Procfile" />
     <Content Include="requirements.txt" />
+    <Content Include="SpareStubPublic\static\scripts\sparestub\base.js" />
+    <Content Include="SpareStubPublic\static\scripts\sparestub\contact.js" />
     <Content Include="SpareStubPublic\static\content\bootstrap.css" />
     <Content Include="SpareStubPublic\static\content\bootstrap.min.css" />
     <Content Include="SpareStubPublic\static\content\site.css" />
@@ -66,6 +70,7 @@
     <Content Include="SpareStubPublic\static\scripts\modernizr-2.6.2.js" />
     <Content Include="SpareStubPublic\static\scripts\respond.js" />
     <Content Include="SpareStubPublic\static\scripts\respond.min.js" />
+    <Content Include="SpareStubPublic\static\scripts\sparestub\utils.js" />
     <Content Include="SpareStubPublic\static\scripts\_references.js" />
     <Content Include="SpareStubPublic\templates\index.html" />
     <Content Include="SpareStubPublic\templates\_layout.html" />
